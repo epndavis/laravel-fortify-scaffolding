@@ -9,7 +9,7 @@
     </head>
 
     <body>
-        <div id="app" class="flex flex-col min-h-screen">
+        <div id="app" class="flex flex-col min-h-screen bg-gray-100">
             <header>
                 @include('partials.header')
             </header>

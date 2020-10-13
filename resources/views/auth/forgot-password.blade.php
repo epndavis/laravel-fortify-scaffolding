@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="container flex">
-    <div class="p-4 m-auto rounded w-full sm:max-w-md shadow-lg">
+    <div class="p-4 m-auto rounded w-full sm:max-w-md shadow-md sm:rounded-lg">
         @if ($errors->any())
             <div class="mb-4">
                 @include('partials.errors')
