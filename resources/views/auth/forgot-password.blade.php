@@ -20,7 +20,7 @@
 
             <div class="mt-4">
                 <label>{{ __('Email') }}</label>
-                <input type="text" name="email" placeholder="john.doe@example.com" class="bg-gray-200 py-1 px-2 rounded-md shadow-sm block mt-1 w-full" required autofocus />
+                <input type="email" name="email" placeholder="john.doe@example.com" class="bg-gray-200 py-1 px-2 rounded-md shadow-sm block mt-1 w-full" required autofocus />
             </div>
 
             <div class="mt-4 flex justify-end">
